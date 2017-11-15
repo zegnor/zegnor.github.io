@@ -1,0 +1,407 @@
+/*
+col1 = #33C2D1
+col2 = #47555B
+col3 = #FC5185
+col4 = #36D1C4
+
+font-family: 'Indie Flower', cursive;
+font-family: 'Dosis', sans-serif;
+*/
+*{
+    box-sizing: border-box;
+}
+
+.little-flag{
+    width: 2vw;
+    float: right !important;
+    margin-right: 30px;
+}
+
+.sidebar{
+    background: #33C2D1;
+    width: 20vw;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+    left: -14vw;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+.top-bar{
+    display: none;
+}
+
+.sidebar .the-flags a img{
+    width: 25%;
+}
+.bigger-logo{
+    visibility: hidden;
+}
+
+.the-flags{
+    visibility: hidden;
+    margin-top: 20px;
+}
+
+.small-logo{
+    width: 5vw;
+    float: right;
+    margin-right: 0.4vw;
+}
+
+
+#slide{
+    transition: 0.5s;
+}
+
+
+.wrapper:hover #slide {
+     transition: 0.5s;
+     left: 0;
+ }
+
+.selected{
+    color: #F6F7D7;
+}
+
+.wrapper:hover .little-flag {
+    display: none;
+}
+
+.wrapper:hover #small-logo{
+    visibility: hidden;
+}
+
+.wrapper:hover .bigger-logo{
+    visibility: visible;
+}
+.wrapper:hover .the-flags{
+    visibility: visible !important;
+}
+
+.sidebar ul{
+    list-style: none;
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 1vh !important;
+    text-align: left;
+}
+
+.sidebar ul li{
+    font-size: 2em;
+    margin-top: 5vh;
+}
+
+.sidebar ul li i{
+    float: right;
+    margin-right: 20px;
+    font-size: 1.5em;
+}
+
+.main{
+    width: 94vw;
+    margin-left: 6vw;
+}
+
+
+
+
+
+.first-div{
+    position: relative;
+    margin-top: 10vh;
+}
+
+
+.prod-large{
+    display: none;
+}
+
+.first-div .large-6 h1{
+    font-family: 'Indie Flower', cursive;
+    color: #FC5185;
+}
+
+.first-div p{
+    color: #47555B;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5em;
+}
+
+
+.first-div a{
+    font-size: 3em;
+    font-family: 'Dosis', sans-serif;
+    color: #33C2D1;
+}
+
+.first-div .contact-info{
+    text-align: right;
+}
+
+
+.first-div .contact-info h4{
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    color: #FC5185;
+}
+
+.first-div .contact-info p{
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.first-div .contact-info a{
+    font-size: 1.3em;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+.second-div{
+    margin-top: 10vh !important;
+    position: relative;
+}
+
+.the-call-to-action{
+    width: 36vw;
+    background: rgba(247, 247, 247, 0.85);
+    position: absolute;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 8vh;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #33C2D1;
+    margin: 1em 0;
+    padding: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
+.the-call-to-action h1{
+    font-family: 'Indie Flower', cursive;
+    color: #33C2D1;
+    text-align: center;
+    font-size: 4em;
+    margin: 0px !important;
+}
+
+.the-call-to-action h2{
+    font-family: 'Dosis', sans-serif;
+    color: #47555B;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.third-div{
+    margin-top: 10vh;
+}
+
+.third-div .each-thumb{
+    text-align: center;
+    height: 50vh;
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding-top: 3vh;
+    margin: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.each-thumb p{
+
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.9em;
+}
+
+
+
+.each-thumb i{
+    font-size: 5em;
+    color: #33C2D1;
+}
+
+
+.each-thumb h4{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    color: #33C2D1;
+}
+
+
+.fourth-div{
+    margin-top: 10vh !important;
+    font-family: 'Dosis', sans-serif;
+}
+
+.fourth-div h1{
+
+    color: #47555B;
+    font-family: 'Dosis', sans-serif !important;
+}
+
+
+.fourth-div a{
+    font-size: 1.6em;
+    color: #33C2D1;
+    margin: 0px;
+}
+
+.footer{
+    margin-top: 10vh;
+    background: #33C2D1;
+    font-family: 'Dosis', sans-serif !important;
+    color: whitesmoke;
+}
+
+.footer .cert img{
+    width: 25%;
+    float: left;
+}
+
+.footer .icons{
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+.news-letter {
+    width: 80% !important;
+    margin-bottom: 0px !important;
+    float: left;
+    height: 6vh !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+
+}
+
+.signup-button{
+    float: left;
+    width: 20%;
+    height: 6vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #FC5185;
+    padding: 4px;
+    margin-bottom: 0px;
+}
+.news-div{
+    float: right;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .wrapper{
+        visibility: hidden;
+    }
+    .main{
+        margin-top: 3vh;
+        width: 100vw !important;
+        margin-left: 0px;
+    }
+    .third-div{
+        margin: 0px;
+    }
+
+    .top-bar{
+        margin-top: 2vh;
+        display: block !important;
+    }
+    .top-bar .small-2 i{
+        font-size: 2em;
+        text-align: right;
+    }
+
+
+
+    .first-div .large-6 a{
+        font-size: 1.5em;
+    }
+    
+    .prod-small{
+        display: none;
+    }
+    
+    .prod-large{
+        display: block;
+    }
+
+    .second-div{
+        margin-top: 10vh !important;
+    }
+
+    .the-call-to-action{
+        width: 60vw;
+        background: rgba(247, 247, 247, 0.85);
+        position: absolute;
+        border-radius: 10px;
+        -moz-box-shadow: 0 0 5px #888;
+        -webkit-box-shadow: 0 0 5px#888;
+        box-shadow: 0 0 5px #888;
+        z-index: 100;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-top: 0vh;
+    }
+
+    .the-call-to-action h1{
+        font-family: 'Indie Flower', cursive;
+        color: #33C2D1;
+        text-align: center;
+        font-size: 2em;
+        margin: 0px !important;
+    }
+
+    .the-call-to-action h2{
+        font-family: 'Dosis', sans-serif;
+        color: #47555B;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .third-div{
+        margin-top: 10vh;
+    }
+
+    .each-thumb p{
+
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.9em;
+    }
+
+
+
+    .each-thumb p{
+        font-size: 1.4em;
+
+    }
+
+    .cert{
+        display: none;
+    }
+
+    .news-div{
+        text-align: center;
+    }
+
+
+}

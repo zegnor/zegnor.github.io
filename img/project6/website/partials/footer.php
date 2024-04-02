@@ -5,7 +5,7 @@
 	</div>
 </footer>
 <script src="assets/js/script.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA45esILwprgGJIkE9ECK1FjHBeMcr9OLk&callback=initMap">
+<script async defer src="https://maps.googleapis.com/maps/api/js?key==initMap">
 </script>
 </body>
 
